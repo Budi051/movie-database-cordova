@@ -1,0 +1,26 @@
+<div data-name="review" class="page">
+  <div class="navbar">
+    <div class="navbar-bg"></div>
+    <div class="navbar-inner">
+      <div class="left"><a href="/index/" class="link">< Back</a></div>
+      <div class="right"><a href="" class="link">Input Review</a></div>
+    </div>
+  </div>
+
+  <div class="page-content">
+  	<div class="card demo-card-header-pic">
+      <p class="date">Judul Film</p>
+      <div class="card-content card-content-padding">
+        <div class="card-header align-items-flex-end">Gambar Film</div>
+      </div>
+      <div class="card-footer">
+        <form method="POST" class="form-ajax-submit" action="http://ubaya.prototipe.net/s160418051/project/review.php">
+            <p>Rating : <input type="number" id="rating" name="rating" required validated placeholder="9.0" min="0" max="10" step="0.1" style="border: 1px solid black;"></p> 
+            <p>Review : <br><textarea rows="5" cols="45" id="review2" name="review2" required validate style="border: 1px solid black;"></textarea></p>
+            <p><input type="button" name="btnsubmit" id="btnsubmit" class="button button-fill button-big" value="SUBMIT"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
